@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Khaana-Paani/static/css/main.98c269df.css",
-    "main.js": "/Khaana-Paani/static/js/main.a9141815.js",
+    "main.js": "/Khaana-Paani/static/js/main.0a25683a.js",
     "static/media/product4.jpg": "/Khaana-Paani/static/media/product4.94f1bc5d0678e2629aeb.jpg",
     "static/media/product1.jpg": "/Khaana-Paani/static/media/product1.8d05cbf9e77184b549db.jpg",
     "static/media/portfolio.jpg": "/Khaana-Paani/static/media/portfolio.37317f30bbee54e203b3.jpg",
@@ -12,10 +12,10 @@
     "static/media/logo.png": "/Khaana-Paani/static/media/logo.eff6ed3413a075583c2d.png",
     "index.html": "/Khaana-Paani/index.html",
     "main.98c269df.css.map": "/Khaana-Paani/static/css/main.98c269df.css.map",
-    "main.a9141815.js.map": "/Khaana-Paani/static/js/main.a9141815.js.map"
+    "main.0a25683a.js.map": "/Khaana-Paani/static/js/main.0a25683a.js.map"
   },
   "entrypoints": [
     "static/css/main.98c269df.css",
-    "static/js/main.a9141815.js"
+    "static/js/main.0a25683a.js"
   ]
 }
