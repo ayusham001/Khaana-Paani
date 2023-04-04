@@ -1,0 +1,22 @@
+.create_wrapper {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .create_wrapper {
+      font-size: 14px;
+    }
+  
+    .create_wrapper .table-responsive {
+      overflow-x: scroll;
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .create_wrapper {
+      font-size: 12px;
+    }
+  }
+  

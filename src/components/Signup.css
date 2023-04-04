@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page {
+
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 2px 2px 15px;
+    width: fit-content;
+    /* background-image: url('nlbg.jpg'); */
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    border-radius: 15px;
+}
+
+.page h1 {
+    margin-bottom: 30px;
+    text-align: center;
+    color:rgb(244, 145, 16);
+}
+
+.page .inputbox {
+    position: relative;
+}
+
+.page .inputbox input {
+    color:rgb(255, 1, 1);
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background: transparent;
+    outline: none;
+}
+
+.page .inputbox label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+
+}
+
+.page input[type="button"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background:rgb(255, 1, 1);
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.page .inputbox input:focus~label,
+.page .inputbox input:valid~label {
+    top: -20px;
+    left: 0;
+    color: #205e7b;
+    font-size: 13px;
+}
+
+.page .log {
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.page .log a {
+    color: rgb(0, 0, 0);
+}
